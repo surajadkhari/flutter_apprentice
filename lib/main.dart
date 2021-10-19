@@ -15,6 +15,7 @@ class Foodrlich extends StatelessWidget {
     final apptheme = FooderlichTheme.dark();
 
     // TODO: Apply Home widget
-    return MaterialApp(theme: apptheme, home: Home());
+    return MaterialApp(
+        debugShowCheckedModeBanner: false, theme: apptheme, home: Home());
   }
 }
